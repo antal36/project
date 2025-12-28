@@ -1,0 +1,12 @@
+Project proposal
+Moja myšlienka je pomerne jednoduchá a vznikla z bežnej návštevy obchodu. Napadlo mi, že by bolo fajn, keby na samoobslužných pokladniach nebolo potrebné ručne skenovať všetok tovar. Najmä pri produktoch, ktoré nemajú čiarový kód – napríklad ovocie, zelenina alebo pečivo – by systém vedel tovar automaticky rozpoznať. Neskôr som sa dozvedel, že takéto niečo už Decathlon napríklad má :D
+
+Cieľom projektu je identifikovať typ tovaru, ale zároveň aj jeho množstvo. Výstupom by teda bol tuple v tvare (class, count). Netuším, či by sa to dalo riešiť jedným modelom, alebo to treba rozdeliť na dva samostatné modely – jeden na rozpoznanie triedy a druhý na určenie počtu kusov. Pravdepodobne asi to druhé, čo by prakticky nemalo byť až také náročné.
+
+Najbližšie ku dátam, aké som chcel, som sa dostal tu:
+
+https://www.kaggle.com/datasets/shreyapmaher/fruits-dataset-images
+
+Teda rôzne druhy ovocia. Počty by som musel asi manuálne dorobiť.
+
+Antal
